@@ -41,6 +41,6 @@ service:
     url: https://opslevel.pagerduty.com/services/P88H2N0
     environment: Production
   - name: Opsgenie Incident Management
-    category: Incident Management
+    category: incidents
     url: https://opsgenie.com/support_console
     environment: Production
