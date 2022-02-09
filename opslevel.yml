@@ -44,3 +44,7 @@ service:
     category: incidents
     url: https://opsgenie.com/support_console
     environment: Production
+  - name: AWS CloudWatch
+    category: admin
+    url:
+    environment: Production
