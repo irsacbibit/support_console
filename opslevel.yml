@@ -11,6 +11,8 @@ service:
   description: 'Used by the Customer Support team to manage inbound support requests. '
   aliases: 
   tags: 
+  - key:is_public_facing
+    value:true
   repositories:
   - name: irsacbibit/support_console
     path: "/"
